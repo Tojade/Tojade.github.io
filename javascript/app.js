@@ -1,7 +1,7 @@
 // Scroll function with nav bar
 $(document).ready(function () {
     $(window).scroll(function () {
-        if (this.scrollY > 20)
+        if (this.scrollY > 20) // When the user scrolls down 20px, the navbar will appear with it.
             $(".navbar").addClass("sticky");
         else
             $(".navbar").removeClass("sticky");
