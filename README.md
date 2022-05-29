@@ -5,7 +5,7 @@ This is a static web page containing information about myself including a resume
 
 ## HTML
 
-The HTML language was inlcuded to structure the static web page and all the contents for the page. The langauge was used to link a google material design fonts, as well as using the cdnjs cloudflare libraries to place fonts of different designs (Github,phone font, and Mail), and the use of pop up libraries. 
+The HTML language was included to structure the static web page and all the contents for the page. The langauge was used to link a google material design fonts, as well as using the cdnjs cloudflare libraries to place fonts of different designs (Github,phone font, and Mail), and the use of pop up libraries. 
 
 - Structure Web Page
 - Adding external CSS style fonts such as Google material design fonts, CloudFlare Fonts and popups
