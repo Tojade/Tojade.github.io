@@ -1,20 +1,20 @@
 /* Overall Classes */
 
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    font-family: "Ubuntu", sans-serif;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: "Ubuntu", sans-serif;
+	box-sizing: border-box;
 }
 
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
-    width: 15px;
-    background-color: #fff;
+	width: 15px;
+	background-color: #fff;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -22,9 +22,9 @@ html {
 }
 
 .inner-width {
-    max-width: 1300px;
-    margin: auto;
-    padding: 0 40px;
+	max-width: 1300px;
+	margin: auto;
+	padding: 0 40px;
 }
 
 
@@ -41,51 +41,53 @@ html {
     top: 0;
     z-index: 999;
     transition: .2s linear;
+    
+   
 }
 
-    .navbar .inner-width {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
+	.navbar .inner-width {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
 
 .navbar-title {
-    font-size: x-large;
-    font-weight: bold;
-    color: #fff;
+	font-size: x-large;
+	font-weight: bold;
+	color: #fff;
 }
 
-    .navbar-title:hover {
-        animation: jump 0.3s;
-    }
+	.navbar-title:hover {
+		animation: jump 0.3s;
+	}
 
 .menu-toggler {
-    background: none;
-    width: 30px;
-    border: none;
-    cursor: pointer;
-    position: relative;
-    outline: none;
-    z-index: 999;
-    display: none;
-    margin-right: 1px;
+	background: none;
+	width: 30px;
+	border: none;
+	cursor: pointer;
+	position: relative;
+	outline: none;
+	z-index: 999;
+	display: none;
+	margin-right: 1px;
 }
 
-    .menu-toggler span {
-        display: block;
-        height: 3px;
-        background-color: #fff;
-        margin: 6px 0;
-        position: relative;
-        transition: .2s linear;
-    }
+	.menu-toggler span {
+		display: block;
+		height: 3px;
+		background-color: #fff;
+		margin: 6px 0;
+		position: relative;
+		transition: .2s linear;
+	}
 
 .navbar-menu a {
-    color: #fff;
-    font-size: 15px;
-    font-weight: 500;
-    margin-left: 30px;
-    transition: .2s linear;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 500;
+	margin-left: 30px;
+	transition: .2s linear;
 }
 
     .navbar-menu a:hover {
@@ -94,26 +96,26 @@ html {
     }
 
 .sticky {
-    background-color: #dedede;
-    color: #000000;
-    padding: 18px 0;
+	background-color: #dedede;
+	color: #000000;
+	padding: 18px 0;
 }
 
-    .sticky .navbar-title {
-        color: #000000;
-    }
+	.sticky .navbar-title {
+		color: #000000;
+	}
 
-    .sticky .navbar-menu {
-        color: #000000;
-    }
+	.sticky .navbar-menu {
+		color: #000000;
+	}
 
-        .sticky .navbar-menu a {
-            color: #000000;
-        }
+		.sticky .navbar-menu a {
+			color: #000000;
+		}
 
-    .sticky .menu-toggler span {
-        background-color: #000000;
-    }
+	.sticky .menu-toggler span {
+		background-color: #000000;
+	}
 
 
 
@@ -122,28 +124,28 @@ html {
 /* Section Classes */
 
 section {
-    padding: 100px 0;
-    background-color: #fff;
+	padding: 100px 0;
+	background-color: #fff;
 }
 
 .section-title {
-    text-align: center;
-    margin-bottom: 80px;
-    position: relative;
-    font-size: 26px;
-    padding-bottom: 20px;
-    color: #111;
+	text-align: center;
+	margin-bottom: 80px;
+	position: relative;
+	font-size: 26px;
+	padding-bottom: 20px;
+	color: #111;
 }
 
-    .section-title::before {
-        content: "";
-        position: absolute;
-        width: 80px;
-        height: 3px;
-        background-color: #111;
-        bottom: 0;
-        left: calc(50% - 40px);
-    }
+	.section-title::before {
+		content: "";
+		position: absolute;
+		width: 80px;
+		height: 3px;
+		background-color: #111;
+		bottom: 0;
+		left: calc(50% - 40px);
+	}
 
     .section-title::after {
         content: "";
@@ -157,16 +159,16 @@ section {
     }
 
 section.dark {
-    background-color: #353b48;
+	background-color: #353b48;
 }
 
-    section.dark .section-title {
-        color: #fff;
-    }
+	section.dark .section-title {
+		color: #fff;
+	}
 
-        section.dark .section-title::before {
-            background-color: #fff;
-        }
+		section.dark .section-title::before {
+			background-color: #fff;
+		}
 
         section.dark .section-title::after {
             border: 4px solid #353b48;
@@ -187,28 +189,28 @@ section.dark {
     image-rendering: optimizeSpeed;
 }
 
-    #home .inner-width {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-        text-align: center;
-    }
+	#home .inner-width {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+		text-align: center;
+	}
 
-    #home .content {
-        width: 100%;
-        color: #fff;
-    }
+	#home .content {
+		width: 100%;
+		color: #fff;
+	}
 
-        #home .content h1 {
-            font-size: 60px;
-            margin-bottom: 60px;
-            color: #fff;
-        }
+		#home .content h1 {
+			font-size: 60px;
+			margin-bottom: 60px;
+			color: #fff;
+		}
 
-    #home .buttons {
-        margin-top: 60px;
-    }
+	#home .buttons {
+		margin-top: 60px;
+	}
 
         #home .buttons a {
             display: inline-block;
@@ -231,41 +233,41 @@ section.dark {
 /* About Section  */
 
 .about-content {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
 .about-text {
-    flex: 1;
+	flex: 1;
 }
 
-    .about-text h3 {
-        margin: 10px 0;
-        color: #444;
-        font-size: 16px;
-        text-align: center;
-    }
+	.about-text h3 {
+		margin: 10px 0;
+		color: #444;
+		font-size: 16px;
+		text-align: center;
+	}
 
-        .about-text h3 span:nth-child(1):after,
-        .about-text h3 span:nth-child(2):after {
-            content: "";
-            width: 6px;
-            height: 6px;
-            background-color: #444;
-            display: inline-block;
-            border-radius: 50%;
-            margin: 0 14px;
-        }
+		.about-text h3 span:nth-child(1):after,
+		.about-text h3 span:nth-child(2):after {
+			content: "";
+			width: 6px;
+			height: 6px;
+			background-color: #444;
+			display: inline-block;
+			border-radius: 50%;
+			margin: 0 14px;
+		}
 
-    .about-text p {
-        font-size: 17px;
-        line-height: 26px;
-        margin-top: 20px;
-        text-align: center;
-        max-width: 900px;
-        margin: 0 auto;
-    }
+	.about-text p {
+		font-size: 17px;
+		line-height: 26px;
+		margin-top: 20px;
+		text-align: center;
+		max-width: 900px;
+		margin: 0 auto;
+	}
 
 
 
@@ -274,31 +276,31 @@ section.dark {
 /* Education Section */
 
 .time-line {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .block {
-    width: calc(50% - 20px);
-    background-color: #fff;
-    border: 1px solid #ddd;
-    margin: 10px 0;
-    padding: 30px;
-    position: relative;
-    border-radius: 6px;
+	width: calc(50% - 20px);
+	background-color: #fff;
+	border: 1px solid #ddd;
+	margin: 10px 0;
+	padding: 30px;
+	position: relative;
+	border-radius: 6px;
 }
 
-    .block::before {
-        content: "";
-        position: absolute;
-        width: 1px;
-        height: 120%;
-        background-color: #ddd;
-        left: -20px;
-        top: 50%;
-        transform: translateY(-50%);
-    }
+	.block::before {
+		content: "";
+		position: absolute;
+		width: 1px;
+		height: 120%;
+		background-color: #ddd;
+		left: -20px;
+		top: 50%;
+		transform: translateY(-50%);
+	}
 
     .block::after {
         content: "";
@@ -311,15 +313,15 @@ section.dark {
         border-radius: 50%;
     }
 
-    .block h3 {
-        font-size: 16px;
-        margin: 10px 0;
-    }
+	.block h3 {
+		font-size: 16px;
+		margin: 10px 0;
+	}
 
-    .block p {
-        font-size: 15px;
-        color: #444;
-    }
+	.block p {
+		font-size: 15px;
+		color: #444;
+	}
 
 
 
@@ -328,35 +330,35 @@ section.dark {
 /* Skills Section Classes */
 
 .technical-skills {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .skill {
-    width: calc(50% - 20px);
-    text-align: center;
-    border: 1px solid #d3d3d3;
-    background: #d3d3d3;
-    border-radius: 6px;
-    margin: 20px 0;
-    padding: 40px 20px;
-    color: #000;
-    cursor: default;
-    transition: .2s linear;
+	width: calc(50% - 20px);
+	text-align: center;
+	border: 1px solid #d3d3d3;
+	background: #d3d3d3;
+	border-radius: 6px;
+	margin: 20px 0;
+	padding: 40px 20px;
+	color: #000;
+	cursor: default;
+	transition: .2s linear;
 }
 
-    .skill .icon {
-        color: #000;
-        font-size: 40px;
-        margin-bottom: 20px;
-        transition: .2s linear;
-    }
+	.skill .icon {
+		color: #000;
+		font-size: 40px;
+		margin-bottom: 20px;
+		transition: .2s linear;
+	}
 
-    .skill h4 {
-        font-size: 16px;
-        margin-bottom: 6px;
-    }
+	.skill h4 {
+		font-size: 16px;
+		margin-bottom: 6px;
+	}
 
     .skill:hover {
         background-color: #1276b1;
@@ -364,21 +366,21 @@ section.dark {
         transform: scale(1.05);
     }
 
-        .skill:hover .icon {
-            color: #fff;
-        }
+		.skill:hover .icon {
+			color: #fff;
+		}
 
 .skills-link {
-    color: #000;
-    text-decoration: #000 underline;
-    font-weight: bolder;
-    transition: .2s linear;
+	color: #000;
+	text-decoration: #000 underline;
+	font-weight: bolder;
+	transition: .2s linear;
 }
 
 .skill:hover .skills-link {
-    color: #fff;
-    text-decoration: #fff underline;
-    font-weight: bolder;
+	color: #fff;
+	text-decoration: #fff underline;
+	font-weight: bolder;
 }
 
 
@@ -388,27 +390,27 @@ section.dark {
 /* Projects Section Classes */
 
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
 }
 
 .column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
 }
 
-    .column img {
-        margin-top: 8px;
-        vertical-align: middle;
-        width: 100%;
-        border-radius: 6px;
-        transition: .2s linear;
-    }
+	.column img {
+		margin-top: 8px;
+		vertical-align: middle;
+		width: 100%;
+		border-radius: 6px;
+		transition: .2s linear;
+	}
 
 .see-more {
-    margin-top: 30px;
+	margin-top: 30px;
 }
 
     .see-more button {
@@ -422,34 +424,34 @@ section.dark {
         transition: .2s linear;
     }
 
-        .see-more button:hover {
-            animation: shake 0.7s linear;
-        }
+		.see-more button:hover {
+			animation: shake 0.7s linear;
+		}
 
-    .see-more p {
-        color: #fff;
-        font-size: 17px;
-    }
+	.see-more p {
+		color: #fff;
+		font-size: 17px;
+	}
 
 @media screen and (max-width: 1700px) {
-    .column {
-        flex: 50%;
-        max-width: 50%;
-    }
+	.column {
+		flex: 50%;
+		max-width: 50%;
+	}
 }
 
 @media screen and (max-width: 600px) {
-    .column {
-        flex: 100%;
-        max-width: 100%;
-    }
+	.column {
+		flex: 100%;
+		max-width: 100%;
+	}
 }
 
 .see-more {
-    text-align: center;
-    font-size: 15px;
-    color: #fff;
-    transition: .2s linear;
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+	transition: .2s linear;
 }
 
     .see-more:hover {
@@ -457,14 +459,14 @@ section.dark {
     }
 
 .container {
-    position: relative;
-    width: 100%;
+	position: relative;
+	width: 100%;
 }
 
 .image {
-    display: block;
-    width: 100%;
-    height: auto;
+	display: block;
+	width: 100%;
+	height: auto;
 }
 
 .overlay {
@@ -480,29 +482,29 @@ section.dark {
 }
 
 .container:hover .overlay {
-    width: 100%;
-    left: 0;
+	width: 100%;
+	left: 0;
 }
 
 .text {
-    color: #e3e3e3;
-    font-size: 20px;
-    position: absolute;
-    padding: 20px;
+	color: #e3e3e3;
+	font-size: 20px;
+	position: absolute;
+	padding: 20px;
 }
 
-    .text h2 {
-        padding-bottom: 10px;
-    }
+	.text h2 {
+		padding-bottom: 10px;
+	}
 
-    .text p {
-        padding-top: 10px;
-    }
+	.text p {
+		padding-top: 10px;
+	}
 
 .break span {
-    display: block;
-    background-color: #e3e3e3;
-    height: 3px;
+	display: block;
+	background-color: #e3e3e3;
+	height: 3px;
 }
 
 
@@ -548,63 +550,63 @@ div.container {
 /* Footer Start*/
 
 footer {
-    background-color: #000;
-    color: #fff;
-    padding: 60px 0;
-    text-align: center;
+	background-color: #000;
+	color: #fff;
+	padding: 60px 0;
+	text-align: center;
 }
 
 .sm {
-    display: inline-flex;
-    margin: 0 10px;
-    transition: .2s linear;
+	display: inline-flex;
+	margin: 0 10px;
+	transition: .2s linear;
 }
 
     .sm a {
-        color: #1276b1;
+        color: #34dbeb;
         font-size: 30px;
         margin: 20px 0;
         transition: .2s linear;
     }
 
-        .sm a:hover {
-            transform: scale(1.1);
-        }
+		.sm a:hover {
+			transform: scale(1.1);
+		}
 
 .copyright {
-    font-size: 15px;
-    text-align: left;
+	font-size: 15px;
+	text-align: left;
 }
 
 b {
-    color: #fff;
+	color: #fff;
 }
 
 h2 {
-    padding-bottom: 10px;
+	padding-bottom: 10px;
 }
 
 .footerEnd {
-    padding-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 .emailLink {
     display: inline-flex;
     max-width: 300px;
     margin: auto;
-    border-bottom: #1276b1 solid;
+    border-bottom: #34dbeb solid;
     padding: 0 10px;
     cursor: pointer;
     transition: .2s linear;
 }
 
-    .emailLink p {
-        padding-left: 20px;
-    }
+	.emailLink p {
+		padding-left: 20px;
+	}
 
-    .emailLink:hover {
-        transform: scale(1.1);
-    }
+	.emailLink:hover {
+		transform: scale(1.1);
+	}
 
 
 
@@ -612,82 +614,82 @@ h2 {
 /* Responsiveness Classes */
 
 @media screen and (max-width: 980px) {
-    .menu-toggler {
-        display: block;
-    }
+	.menu-toggler {
+		display: block;
+	}
 
-    .navbar-menu {
-        position: fixed;
-        height: 100vh;
-        width: 100%;
-        background-color: #353b48;
-        top: 0;
-        right: -100%;
-        max-width: 400px;
-        padding: 80px 50px;
-        transition: .2s linear;
-    }
+	.navbar-menu {
+		position: fixed;
+		height: 100vh;
+		width: 100%;
+		background-color: #353b48;
+		top: 0;
+		right: -100%;
+		max-width: 400px;
+		padding: 80px 50px;
+		transition: .2s linear;
+	}
 
-        .navbar-menu a {
-            display: block;
-            font-size: 30px;
-            margin: 30px 0;
-        }
+		.navbar-menu a {
+			display: block;
+			font-size: 30px;
+			margin: 30px 0;
+		}
 
-    .sticky .navbar-menu {
-        background-color: #dedede;
-        color: #000000;
-    }
+	.sticky .navbar-menu {
+		background-color: #dedede;
+		color: #000000;
+	}
 
-        .sticky .navbar-menu a {
-            color: #000000;
-        }
+		.sticky .navbar-menu a {
+			color: #000000;
+		}
 
-    .navbar-menu.active {
-        right: 0;
-    }
+	.navbar-menu.active {
+		right: 0;
+	}
 
-    .menu-toggler.active span:nth-child(1) {
-        transform: rotate(-45deg);
-        top: 4px;
-    }
+	.menu-toggler.active span:nth-child(1) {
+		transform: rotate(-45deg);
+		top: 4px;
+	}
 
-    .menu-toggler.active span:nth-child(2) {
-        opacity: 0;
-    }
+	.menu-toggler.active span:nth-child(2) {
+		opacity: 0;
+	}
 
-    .menu-toggler.active span:nth-child(3) {
-        transform: rotate(45deg);
-        bottom: 14px;
-    }
+	.menu-toggler.active span:nth-child(3) {
+		transform: rotate(45deg);
+		bottom: 14px;
+	}
 
-    .inner-width {
-        max-width: 800px;
-    }
+	.inner-width {
+		max-width: 800px;
+	}
 
-    .about-text {
-        flex: 100%;
-        text-align: center;
-    }
+	.about-text {
+		flex: 100%;
+		text-align: center;
+	}
 
-    .service {
-        width: calc(50% - 20px);
-    }
+	.service {
+		width: calc(50% - 20px);
+	}
 
-    .block {
-        width: calc(100% - 20px);
-        margin-left: auto;
-    }
+	.block {
+		width: calc(100% - 20px);
+		margin-left: auto;
+	}
 }
 
 @media screen and (max-width: 600px) {
-    .inner-width {
-        padding: 0 20px;
-    }
+	.inner-width {
+		padding: 0 20px;
+	}
 
-    .skill {
-        width: 100%;
-    }
+	.skill {
+		width: 100%;
+	}
 }
 
 
@@ -696,29 +698,31 @@ h2 {
 /* Animations */
 
 @keyframes jump {
-    50% {
-        transform: translateY(-10px);
-    }
+	50% {
+		transform: translateY(-10px);
+	}
 
-    100% {
-        transform: translateY(0px);
-    }
+	100% {
+		transform: translateY(0px);
+	}
 }
 
 @keyframes shake {
-    25% {
-        transform: rotate(10deg);
-    }
+	25% {
+		transform: rotate(10deg);
+	}
 
-    50% {
-        transform: rotate(-10deg);
-    }
+	50% {
+		transform: rotate(-10deg);
+	}
 
-    75% {
-        transform: rotate(10deg);
-    }
+	75% {
+		transform: rotate(10deg);
+	}
 
-    100% {
-        transform: rotate(0deg);
-    }
+	100% {
+		transform: rotate(0deg);
+	}
 }
+
+
