@@ -453,7 +453,7 @@ section.dark {
 }
 
     .see-more:hover {
-        color: #34dbeb;
+        color: #1276b1;
     }
 
 .container {
@@ -561,7 +561,7 @@ footer {
 }
 
     .sm a {
-        color: #34dbeb;
+        color: #1276b1;
         font-size: 30px;
         margin: 20px 0;
         transition: .2s linear;
@@ -592,7 +592,7 @@ h2 {
     display: inline-flex;
     max-width: 300px;
     margin: auto;
-    border-bottom: #34dbeb solid;
+    border-bottom: #1276b1 solid;
     padding: 0 10px;
     cursor: pointer;
     transition: .2s linear;
