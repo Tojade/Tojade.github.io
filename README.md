@@ -10,6 +10,7 @@ The HTML language was included to structure the static web page and all the cont
 - Structure Web Page
 - Adding external CSS style fonts such as Google material design fonts, CloudFlare Fonts and popups
 - Link external style sheet
+- Fully functional contact form using formspree
 
 
 ## CSS
@@ -28,5 +29,6 @@ The JavaScript language was used to set interactive features to the website such
 - Adding functions to set the home tag to jump
 - Adding the type writer function
 - Adding scroll bar function
+
 
 
